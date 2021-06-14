@@ -44,6 +44,7 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-source-contentful",
