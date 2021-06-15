@@ -1,7 +1,6 @@
 {
   "name": "contentful-starter-gatsby-blog",
   "description": "Contentful Gatsby Starter Blog",
-  "private": true,
   "version": "0.0.1",
   "author": "Contentful <opensource@contentful.com>",
   "bugs": {
@@ -19,34 +18,42 @@
     "gatsby-transformer-sharp": "^3.6.0",
     "gh-pages": "^3.1.0",
     "lodash": "^4.17.15",
+    "prettier": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "contentful-import": "^8.1.13"
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "contentful-import": "^8.1.13",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0"
   },
   "engines": {
     "node": ">=10.13.0"
   },
   "homepage": "https://github.com/contentful/starter-gatsby-blog#readme",
   "keywords": [
-    "gatsby",
     "contentful",
+    "gatsby",
     "starter"
   ],
   "license": "MIT",
   "main": "n/a",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/contentful/starter-gatsby-blog.git"
   },
   "scripts": {
-    "dev": "gatsby develop",
     "build": "gatsby build",
+    "dev": "gatsby develop",
     "heroku-postbuild": "gatsby build",
-    "serve": "gatsby serve",
     "postinstall": "node ./bin/hello.js",
+    "serve": "gatsby serve",
     "setup": "node ./bin/setup.js"
   }
 }
